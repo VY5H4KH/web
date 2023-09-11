@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Nunito:wght@500;700&family=Prompt:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
+<body id="bg">
+    <header style="background-color: rgba(0, 0, 0, 0.6);">
         <img id="logo" src="https://www.freeiconspng.com/uploads/review-icon-png-17.png" alt="logo"/>
         <nav class="Navbar">                             
             <a href="./index.html" class="navb">Home</a>
@@ -20,26 +20,30 @@
     </header>
     <section id="EventSec1">
         <div class="EventClass" style="width: 60%;">
-            <h2>Movie Name</h2>
-            <p>Release Date</p>
-            <p>Rating</p>
-            <p style="font-size: 15px;">Christopher Nolan's "Inception" is a cinematic triumph that transcends the boundaries of conventional storytelling, leaving audiences spellbound and contemplating its intricacies long after the credits roll. It's not merely a movie; it's an experience, a cerebral rollercoaster ride that challenges the very essence of reality and dreams. The film's premise is deceptively simple yet brilliantly executed. Dom Cobb, portrayed with depth and charisma by Leonardo DiCaprio, is a skilled extractor who enters the dreams of others to steal their secrets. However, he is offered a tantalizing opportunity to reverse the process and plant an idea deep within a target's subconscious—an act known as "inception." Nolan's script delves into the complexities of dreams and subconsciousness, blurring the lines between reality and illusion.</p>
+            <img id="pro" src="https://i.redd.it/yl5npk5nf5281.jpg" alt="">
+            <h1>Interstellar</h1>
+            <p>2014</p>
+            <p>Rating 8.7/10</p>
+            <p">Director: Christopher Nolan<br>
+            Writers: Jonathan Nolan, Christopher Nolan <br>
+            Stars: Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+            <p style="font-size: 15px;">"Interstellar" is a 2014 science fiction film directed by Christopher Nolan. The story follows a group of astronauts, led by Cooper (played by Matthew McConaughey), who embark on a space voyage through a wormhole to find a new habitable planet for humanity, as Earth is facing environmental collapse. The film explores complex themes of time dilation, relativity, and human survival in the face of cosmic challenges. It features stunning visual effects, a haunting soundtrack by Hans Zimmer, and an ensemble cast including Anne Hathaway and Jessica Chastain. "Interstellar" received critical acclaim for its thought-provoking narrative and scientific accuracy.</p>
             <div class="form-center">
                 <form action="">
-                    <h3>Enter Your Thoughts</h3>
-                    <label for="Name">Name</label>
-                    <input type="text" name="name">
-                    <label for="Email">Email</label>
-                    <input type="email" name="email">
+                    <h5>Enter Your Thoughts</h5>
+                    <label for="Name">Name:</label>
+                    <input type="text" name="name"><br>
+                    <label for="Email">Email:</label>
+                    <input type="email" name="email"><br>
                     <label for="Review">Review</label>
-                    <input type="text" name="review">
+                    <textarea name="review" id="" cols="30" rows="2"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
     </section>
-    <footer>
-        <p>©2023 Event Registration System</p>
+    <footer style="background-color: rgba(0, 0, 0, 0.6);">
+        <p>©2023 Movie DB</p>
     </footer>
 </body>
 </html>

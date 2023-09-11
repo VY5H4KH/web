@@ -9,6 +9,9 @@ header{
     align-items: center;
     padding: 10px 15px;
 }
+#bg{
+    background-image: url("https://e0.pxfuel.com/wallpapers/471/173/desktop-wallpaper-black-for-ipad-iphone-waves-black-and-white.jpg");
+}
 h3{
     margin: 10px;
 }
@@ -22,12 +25,17 @@ h2{
     width: 120px;
     height: 150px;
 }
+#pro{
+    width: 810px;
+    box-shadow: 0 6px 20px rgba(60, 58, 56, 1);
+}
 .navb{
     color: black;
     background-color: gold;
     border: 1px solid black;
     border-radius: 10px;
     padding: 3px;
+    margin: 10px;
     text-decoration: none;
 }
 .EventClass{
@@ -90,7 +98,7 @@ form{
     padding: 10px;
     border-radius: 10px;
     align-items: baseline;
-    width: 50%;
+    width: 90%;
 }
 .form-center form {
   position: relative;
@@ -112,6 +120,15 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 input{
+    width: 60%;
+    padding: 5px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 6px;
+    box-sizing: border-box;
+}
+textarea{
     width: 100%;
     padding: 8px 20px;
     margin: 8px 0;
@@ -122,5 +139,8 @@ input{
 }
 label{
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+}
+h5{
+    margin: 0;
 }
