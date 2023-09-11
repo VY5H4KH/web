@@ -9,6 +9,10 @@ header{
     align-items: center;
     padding: 10px 15px;
 }
+#home{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/696/278/small/textured-black-background.jpg");
+    /* background-size: cover; */
+}
 #bg{
     background-image: url("https://e0.pxfuel.com/wallpapers/471/173/desktop-wallpaper-black-for-ipad-iphone-waves-black-and-white.jpg");
 }
